@@ -14,7 +14,7 @@ class Patient:
     
     def __init__(self, name, age, disease):
         self.name = name
-        selfself.age = age
+        self.age = age
         self.disease = disease
         self.id = Patient.patient_id
         Patient.patient_id += 1
