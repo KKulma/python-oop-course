@@ -21,10 +21,10 @@ class Car:
         
 my_car = Car("Fiesta", 2006, 12345, 1234567890)
 my_car.model
-my_car.id_num # doesn't exist
+# my_car.id_num # doesn't exist
 my_car._id_num # protected attribute can be accessed 
 my_car.__engine_serial_num ## privatae attribute can't be accessed the same way as the private one 
-my_car._Car__engine_serial_num ## private attribute CAN be accessed via the name mungling, though
+# my_car._Car__engine_serial_num ## private attribute CAN be accessed via the name mungling, though
 
 
 class Book:
