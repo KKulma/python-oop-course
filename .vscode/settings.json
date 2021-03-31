@@ -1,0 +1,5 @@
+{
+    "python.formatting.autopep8Path": "black",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true
+}
