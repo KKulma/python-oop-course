@@ -63,7 +63,7 @@ class Poodle(Dog):
 
 # This line:
 
-super().__init__(name, age)
+super().__init__(self, name, age)
 # is equivalent to the syntax that you learned in the previous video:
 
 Dog.__init__(self, name, age)
